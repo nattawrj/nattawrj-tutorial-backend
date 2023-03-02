@@ -82,7 +82,7 @@ repo-dispatch:
     needs: [unitest,analyze]
     environment:
       name: dev
-      url: https://github.com/nattawrj/user22-tutorial-backend/actions/workflows/cicd-appservice-dev.yml
+      url: https://github.com/nattawrj/user22-tutorial-backend/actions/workflows/dev-tutorial-backend-deploy.yml
   
     steps:
     - name: Repository Dispatch
