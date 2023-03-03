@@ -6,7 +6,8 @@ on:
 env:
   ARTIFACT_NAME: "artifact-tutorial-backend"
 
-build:
+jobs:
+  build:
     runs-on: ubuntu-latest
     environment:
       name: sit
